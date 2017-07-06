@@ -2,7 +2,7 @@ from turtle import *
 import math
 
 # Name your Turtle.
-t = Turtle()
+jimbo = Turtle()
 
 # Set Up your screen and starting position.
 setup(500,300)
@@ -11,10 +11,24 @@ y_pos = -150
 t.setposition(x_pos, y_pos)
 
 ### Write your code below:
+square_count = input(5)
+count_int = int(square_ct)
 
+if count_int > 1:
 
+    jimbo.begin_fill()
+    jimbo.forward(100)
+    jimbo.right(90)
+    jimbo.forward(100)
+    jimbo.right(90)
+    jimbo.forward(100)
+    jimbo.right(90)
+    jimbo.forward(100)
+    jimbo.end_fill()
 
-
+    jimbo.up()
+    jimbo.forward(20)
+    jimbo.color(random.random(),random.random(), random.random())
 
 
 # Close window on click.
